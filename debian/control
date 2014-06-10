@@ -1,0 +1,67 @@
+Source: khotkeys
+Priority: extra
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Jonathan Riddell <jr@jriddell.org>
+Build-Depends: cmake,
+               dbus-x11,
+               debhelper (>= 9.0.0),
+               extra-cmake-modules (>= 0.0.14),
+               qtbase5-dev,
+               libkf5globalaccel-dev,
+               libkf5i18n-dev,
+               kio-dev,
+               libkf5xmlgui-dev,
+               libkf5kdelibs4support-dev,
+               libkf5dbusaddons-dev,
+               libkf5kcmutils-dev,
+               plasma-framework-dev,
+               plasma-workspace-dev
+Standards-Version: 3.9.5
+Section: kde
+Homepage: https://projects.kde.org/projects/kde/workspace/khotkeys
+
+Package: khotkeys-dev
+Section: devel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: configure input actions settings
+ Configure input actions settings in Plasma.
+ .
+ KHotKeys is part of the KDE Plasma desktop.
+ .
+ This package contains the development files.
+
+Package: khotkeys
+Architecture: any
+Depends: khotkeys-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: configure input actions settings
+ Configure input actions settings in Plasma.
+ .
+ KHotKeys is part of the KDE Plasma desktop.
+ .
+ This package contains the development files.
+
+Package: khotkeys-data
+Architecture: all
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: configure input actions settings
+ Configure input actions settings in Plasma.
+ .
+ KHotKeys is part of the KDE Plasma desktop.
+ .
+ This package contains the translations and other
+ data files.
+
+Package: khotkeys-dbg
+Section: debug
+Architecture: any
+Recommends: qtbase5-dbg
+Depends: khotkeys (= ${binary:Version}), ${misc:Depends}
+Description: configure input actions settings
+ Configure input actions settings in Plasma.
+ .
+ KHotKeys is part of the KDE Plasma desktop.
+ .
+ This package contains the debugging symbols.
