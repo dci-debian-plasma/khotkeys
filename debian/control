@@ -43,7 +43,7 @@ Description: configure input actions settings
  .
  KHotKeys is part of the KDE Plasma desktop.
  .
- This package contains the development files.
+ This package contains the runtime files.
 
 Package: khotkeys-data
 Architecture: all
