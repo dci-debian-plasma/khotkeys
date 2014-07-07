@@ -5,7 +5,7 @@ XSBC-Original-Maintainer: Jonathan Riddell <jr@jriddell.org>
 Build-Depends: cmake,
                dbus-x11,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.14),
+               extra-cmake-modules (>= 4:None),
                qtbase5-dev,
                libkf5globalaccel-dev,
                libkf5i18n-dev,
