@@ -1,4 +1,3 @@
-usr/lib/*/libkhotkeysprivate.so.4*
-usr/lib/*/libkhotkeysprivate.so.5
+usr/lib/*/libkhotkeysprivate.so.5*
 usr/lib/*/qt5/plugins/kded_khotkeys.so
 usr/lib/*/qt5/plugins/kcm_hotkeys.so
