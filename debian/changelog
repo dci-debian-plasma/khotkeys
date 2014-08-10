@@ -1,4 +1,4 @@
-khotkeys (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+khotkeys (4:5.0.1-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -7,7 +7,10 @@ khotkeys (4:5.0.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix install 
   * Update watch to http://download.kde.org 
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Jul 2014 20:02:41 +0200
+  [ Jonathan Riddell ]
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 10 Aug 2014 15:41:34 +0200
 
 khotkeys (4:4.98.0-0ubuntu1) utopic; urgency=medium
 
