@@ -16,7 +16,7 @@ Build-Depends: cmake,
                libkf5kcmutils-dev (>= 5.2.0),
                libqt5x11extras5-dev,
                plasma-framework-dev (>= 5.2.0),
-               plasma-workspace-dev (>= 5.0.2),
+               plasma-workspace-dev (>= 4:5.0.95),
                pkg-kde-tools
 Standards-Version: 3.9.5
 Section: kde
