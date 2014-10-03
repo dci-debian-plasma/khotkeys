@@ -5,7 +5,7 @@ Source: https://projects.kde.org/projects/kde/workspace/khotkeys
 Files: *
 Copyright: 1999-2001 Lubos Lunak <l.lunak@kde.org>
            2008 Michael Jansen <kde@michael-jansen.biz>
-License: LGPL 2 or later
+License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License version 2 as published by the Free Software Foundation.
@@ -35,7 +35,7 @@ Files: libkhotkeysprivate/windows_helper/*
 Copyright: 1999-2001 Lubos Lunak <l.lunak@kde.org>
            2008 Michael Jansen <kde@michael-jansen.biz>
            2014 Jonathan Riddell <jr@jriddell.org>
-License: LGPL-2
+License: GPL-KDEeV
  This program is free software; you can redistribute it and/or
  modify it under the terms of the GNU General Public License as
  published by the Free Software Foundation; either version 2 of
