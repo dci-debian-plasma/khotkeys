@@ -23,8 +23,7 @@ License: LGPL-2+
  On Debian systems, the complete text of the GNU Lesser General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2.1".
 
-Files: libkhotkeysprivate/windows_helper/*
-       libkhotkeysprivate/sound.cpp
+Files: libkhotkeysprivate/sound.cpp
        libkhotkeysprivate/sound.h
        libkhotkeysprivate/soundrecorder.cpp
        libkhotkeysprivate/soundrecorder.h
@@ -54,3 +53,83 @@ License: GPL-KDEeV
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: libkhotkeysprivate/triggers/*
+       libkhotkeysprivate/windows_helper/*
+Copyright: 1999-2001 Lubos Lunak <l.lunak@kde.org>
+           2008 Michael Jansen <kde@michael-jansen.biz>
+License: GPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files: libkhotkeysprivate/settings_writer.cpp
+ libkhotkeysprivate/settings_writer.h
+ libkhotkeysprivate/settings_reader_v2.cpp
+ libkhotkeysprivate/actions/keyboard_input_action.cpp
+ libkhotkeysprivate/actions/action.cpp
+ libkhotkeysprivate/actions/menuentry_action.cpp
+ libkhotkeysprivate/actions/activate_window_action.cpp
+ libkhotkeysprivate/actions/command_url_action.cpp
+ libkhotkeysprivate/actions/dbus_action.cpp
+ libkhotkeysprivate/actions/action_list.cpp
+ libkhotkeysprivate/conditions/conditions_list.h
+ libkhotkeysprivate/conditions/existing_window_condition.cpp
+ libkhotkeysprivate/conditions/conditions_visitor.h
+ libkhotkeysprivate/conditions/conditions_list.cpp
+ libkhotkeysprivate/conditions/condition.cpp
+ libkhotkeysprivate/conditions/active_window_condition.h
+ libkhotkeysprivate/conditions/or_condition.cpp
+ libkhotkeysprivate/conditions/and_condition.cpp
+ libkhotkeysprivate/conditions/conditions_list_base.cpp
+ libkhotkeysprivate/conditions/active_window_condition.cpp
+ libkhotkeysprivate/conditions/conditions_visitor.cpp
+ libkhotkeysprivate/conditions/conditions_list_base.h
+ libkhotkeysprivate/conditions/condition.h
+ libkhotkeysprivate/conditions/existing_window_condition.h
+ libkhotkeysprivate/conditions/not_condition.cpp
+ libkhotkeysprivate/action_data/simple_action_data.cpp
+ libkhotkeysprivate/action_data/menuentry_shortcut_action_data.h
+ libkhotkeysprivate/action_data/menuentry_shortcut_action_data.cpp
+ libkhotkeysprivate/settings_reader_v2.h
+ libkhotkeysprivate/settings.cpp
+ libkhotkeysprivate/triggers/voice_trigger.cpp
+ libkhotkeysprivate/triggers/trigger_list.cpp
+ libkhotkeysprivate/triggers/shortcut_trigger.cpp
+ libkhotkeysprivate/triggers/triggers.cpp
+ libkhotkeysprivate/triggers/gesture_trigger.cpp
+ libkhotkeysprivate/triggers/trigger.cpp
+ libkhotkeysprivate/triggers/window_trigger.cpp
+ libkhotkeysprivate/triggers/triggers.h
+Copyright: 1999-2001 Lubos Lunak <l.lunak@kde.org>
+           2009 Michael Jansen <kde@michael-jansen.biz>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Library General Public License version
+ 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB. If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
