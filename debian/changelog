@@ -6,6 +6,7 @@ khotkeys (4:5.2.0-1~) UNRELEASED; urgency=medium
     follow cmake.
   * Bump Standards-Version to 3.9.6, no changes needed.
   * Update install files.
+  * Update watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 14:35:19 +0100
 
