@@ -1,4 +1,4 @@
-khotkeys (4:5.2.0-1~) UNRELEASED; urgency=medium
+khotkeys (4:5.2.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Add myself as Uploader.
@@ -8,7 +8,7 @@ khotkeys (4:5.2.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 10 Feb 2015 14:35:19 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 12 Feb 2015 21:31:36 +0100
 
 khotkeys (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
