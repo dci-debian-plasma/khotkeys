@@ -20,6 +20,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Section: kde
 Homepage: https://projects.kde.org/projects/kde/workspace/khotkeys
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/khotkeys.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/khotkeys.git
 
 Package: khotkeys-dev
 Section: devel
