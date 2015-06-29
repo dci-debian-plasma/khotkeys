@@ -18,6 +18,20 @@ khotkeys (4:5.3.1-0ubuntu1) wily; urgency=medium
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 05 Jun 2015 02:29:16 +0200
+khotkeys (4:5.3.1-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.3.0).
+  * New upstream release (5.3.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 05 Jun 2015 11:56:28 +0200
+
+khotkeys (4:5.2.2-1) experimental; urgency=medium
+
+  * New upstream release (5.2.1).
+  * New upstream release (5.2.2).
+  * Bump Standards-Version to 3.9.6.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 25 Mar 2015 23:17:48 +0100
 
 khotkeys (4:5.2.2-0ubuntu1) vivid; urgency=medium
 
@@ -30,6 +44,18 @@ khotkeys (4:5.2.1-0ubuntu1) vivid; urgency=medium
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 23 Feb 2015 09:39:00 -0800
+
+khotkeys (4:5.2.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add myself as Uploader.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update install files.
+  * Update watch file.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 12 Feb 2015 21:31:36 +0100
 
 khotkeys (4:5.2.0-0ubuntu1) vivid; urgency=medium
 
