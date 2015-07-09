@@ -30,6 +30,8 @@ Package: khotkeys-dev
 Section: devel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
 Description: configure input actions settings
  Configure input actions settings in Plasma.
  .
