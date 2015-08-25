@@ -3,7 +3,6 @@ usr/share/doc/HTML/*/kcontrol/khotkeys/
 usr/share/khotkeys/
 usr/share/khotkeys/
 usr/share/kservices5/
-usr/share/kservices5/kded/khotkeys.desktop
 usr/share/kservices5/khotkeys.desktop
 usr/share/locale/
 usr/share/locale/*/*/khotkeys.mo
