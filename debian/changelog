@@ -1,8 +1,8 @@
-khotkeys (4:5.4.0-0ubuntu1) UNRELEASED; urgency=medium
+khotkeys (4:5.4.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 26 Aug 2015 11:47:01 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 31 Aug 2015 15:49:42 +0100
 
 khotkeys (4:5.3.95-0ubuntu1) wily; urgency=medium
 
