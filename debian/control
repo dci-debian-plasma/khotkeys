@@ -17,7 +17,7 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5xmlgui-dev (>= 5.2.0),
                libqt5x11extras5-dev (>= 5.4.0~),
                libx11-dev,
-               pkg-kde-tools (>= 0.15.16),
+               pkg-kde-tools (>= 0.15.18~),
                plasma-framework-dev (>= 5.2.0),
                plasma-workspace-dev (>= 4:5.4.3~),
                qtbase5-dev (>= 5.4)
@@ -30,6 +30,8 @@ Package: khotkeys-dev
 Section: devel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
 Description: configure input actions settings
  Configure input actions settings in Plasma.
  .
@@ -52,6 +54,8 @@ Description: configure input actions settings
 Package: khotkeys-data
 Architecture: all
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
 Description: configure input actions settings
  Configure input actions settings in Plasma.
  .
