@@ -1,8 +1,9 @@
-khotkeys (4:5.4.3-0ubuntu2) UNRELEASED; urgency=medium
+khotkeys (4:5.5.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Debian merge: No remaining changes. 
+  * New upstream release Xenial
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 04 Dec 2015 20:13:51 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 18 Dec 2015 07:27:56 -0800
 
 khotkeys (4:5.4.3-0ubuntu1) xenial; urgency=medium
 
