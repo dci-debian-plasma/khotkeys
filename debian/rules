@@ -7,4 +7,4 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=khotkeys-dbg
+	$(overridden_command) --dbgsym-migration='khotkeys-dbg (<= 4:5.5.5-1~~)'
