@@ -1,10 +1,16 @@
-khotkeys (4:5.6.2-1~1.gbpf18fc2) UNRELEASED; urgency=medium
+khotkeys (4:5.6.2-1~2.gbpb66fd5) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @b66fd5882fbe2c69475e3a730487da3cbd84b18a **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @f18fc2232df8962478d8ffc1a460bd0618216ced **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 06 Apr 2016 23:27:13 +0200
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 09:25:34 +0200
 
 khotkeys (4:5.5.4-1) experimental; urgency=medium
 
