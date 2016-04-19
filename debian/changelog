@@ -1,3 +1,17 @@
+khotkeys (4:5.6.2-1~2.gbpb66fd5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @b66fd5882fbe2c69475e3a730487da3cbd84b18a **
+
+  [ Maximiliano Curia ]
+  ** SNAPSHOT build @f18fc2232df8962478d8ffc1a460bd0618216ced **
+
+  * UNRELEASED
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 09:25:34 +0200
+
 khotkeys (4:5.5.5-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.5.5).
