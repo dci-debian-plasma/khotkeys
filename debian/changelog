@@ -1,11 +1,18 @@
-khotkeys (4:5.6.2-1~2.gbpb66fd5) UNRELEASED; urgency=medium
+khotkeys (4:5.6.3-1~1.gbpe202b4) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b66fd5882fbe2c69475e3a730487da3cbd84b18a **
+  ** SNAPSHOT build @e202b4913e26b9dea2a8a9239f225e187c0d6b8c **
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 09:25:34 +0200
+  [ Maximiliano Curia ]
+  * uscan no longer supports this kind of watch files.
+  * New upstream release (5.5.5).
+  * Automatic update with ddeb_migration3.py
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 19 Apr 2016 17:27:21 +0200
 
 khotkeys (4:5.5.4-1) experimental; urgency=medium
 
