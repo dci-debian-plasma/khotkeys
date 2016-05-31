@@ -1,6 +1,4 @@
-khotkeys (4:5.6.4-1~1.gbp9f351a) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @9f351afc3cf57d828097dfcd66b78530db291896 **
+khotkeys (4:5.6.4-1) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
@@ -11,9 +9,8 @@ khotkeys (4:5.6.4-1~1.gbp9f351a) UNRELEASED; urgency=medium
   * Automatic update with ddeb_migration3.py
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 01:27:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 31 May 2016 21:03:19 +0200
 
 khotkeys (4:5.5.4-1) experimental; urgency=medium
 
