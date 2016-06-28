@@ -1,13 +1,10 @@
-khotkeys (4:5.6.5-1~1.gbpa2ef65) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @a2ef65b2b721f5be5d7f8314840d8192b6800845 **
+khotkeys (4:5.6.5-1) unstable; urgency=medium
 
   * Add XTest build dependency.
     Thanks to Christopher Martin for reporting and suggesting the dependency
     (Closes: 826071)
-  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 19:27:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 14:54:28 +0200
 
 khotkeys (4:5.6.4-1) unstable; urgency=medium
 
