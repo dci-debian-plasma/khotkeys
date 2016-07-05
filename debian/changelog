@@ -1,3 +1,11 @@
+khotkeys (4:5.7.0-1~1.gbp8d126a) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @8d126a3a2e9384cce02fef2825aa3060d74e521e **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 19:27:12 +0200
+
 khotkeys (4:5.6.5-1) unstable; urgency=medium
 
   * Add XTest build dependency.
