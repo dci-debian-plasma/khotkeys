@@ -1,3 +1,11 @@
+khotkeys (4:5.7.1-1~1.gbp4ddee1) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4ddee1aef5eec7b52e7d2e53a42c7081b2b73203 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 12 Jul 2016 19:27:16 +0200
+
 khotkeys (4:5.7.0-1) unstable; urgency=medium
 
   * New upstream release.
