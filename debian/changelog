@@ -1,12 +1,8 @@
-khotkeys (4:5.8.0-1~2.gbpf3feab) UNRELEASED; urgency=medium
+khotkeys (4:5.8.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f3feab52dcd6af4063f31207b2d7170c541b52e4 **
+  * New upstream release (5.8.0)
 
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 06 Oct 2016 10:27:33 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:10:39 +0200
 
 khotkeys (4:5.7.4-1) unstable; urgency=medium
 
