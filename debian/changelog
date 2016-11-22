@@ -1,10 +1,11 @@
-khotkeys (4:5.8.3-1~1.gbp2454b7) UNRELEASED; urgency=medium
+khotkeys (4:5.8.4-1~1.gbpfe668c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2454b743166f007839a77d3c40269c579e44a2d3 **
+  ** SNAPSHOT build @fe668c2a6aa479d1da959ed70d733870340f9367 **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 01 Nov 2016 17:27:20 +0100
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 22 Nov 2016 19:19:36 +0100
 
 khotkeys (4:5.8.2-1) unstable; urgency=medium
 
