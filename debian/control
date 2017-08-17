@@ -20,30 +20,17 @@ Build-Depends: cmake (>= 2.8.12),
                libxtst-dev,
                pkg-kde-tools (>= 0.15.18~),
                plasma-workspace-dev (>= 4:5.2.2),
-               qtbase5-dev (>= 5.4)
+               qtbase5-dev (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/kde/workspace/khotkeys
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/khotkeys.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/khotkeys.git
 
-Package: khotkeys-dev
-Section: devel
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: kde-workspace-dev
-Replaces: kde-workspace-dev
-Description: configure input actions settings
- Configure input actions settings in Plasma.
- .
- KHotKeys is part of the KDE Plasma desktop.
- .
- This package contains the development files.
-
 Package: khotkeys
 Architecture: any
 Depends: khotkeys-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: configure input actions settings
  Configure input actions settings in Plasma.
  .
@@ -63,3 +50,16 @@ Description: configure input actions settings
  .
  This package contains the translations and other
  data files.
+
+Package: khotkeys-dev
+Section: devel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: kde-workspace-dev
+Replaces: kde-workspace-dev
+Description: configure input actions settings
+ Configure input actions settings in Plasma.
+ .
+ KHotKeys is part of the KDE Plasma desktop.
+ .
+ This package contains the development files.
