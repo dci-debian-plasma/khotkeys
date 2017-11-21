@@ -66,7 +66,7 @@ Description: configure input actions settings
 
 Package: khotkeys-dbg
 Section: debug
-Priority: extra
+Priority: optional
 Architecture: any
 Depends: khotkeys (= ${binary:Version}), ${misc:Depends}
 Recommends: qtbase5-dbg
@@ -76,3 +76,4 @@ Description: configure input actions settings
  KHotKeys is part of the KDE Plasma desktop.
  .
  This package contains the debugging symbols.
+
